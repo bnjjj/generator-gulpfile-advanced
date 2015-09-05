@@ -1,5 +1,5 @@
 {
-  "name": "gulpfile-generator",
+  "name": "generator-gulpfile",
   "version": "0.0.1",
   "description": "A yeoman generator to build gulpfiles easily",
   "main": "index.js",
@@ -23,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/bnjjj/gulpfile-generator/issues"
   },
-  "homepage": "https://github.com/bnjjj/gulpfile-generator#readme"
+  "homepage": "https://github.com/bnjjj/gulpfile-generator#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "lodash": "^3.10.1",
+    "opn": "^3.0.2",
+    "require-dir": "^0.3.0",
+    "yeoman-generator": "^0.20.3"
+  }
 }
