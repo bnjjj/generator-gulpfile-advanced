@@ -42,7 +42,7 @@ module.exports = {
       checked: false
     },
     {
-      value : 'minify-js',
+      value : 'minify-js (uglify)',
       name: 'gulp-uglify',
       checked: false
     },
