@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 var minifyHTML = require('gulp-minify-html');
 
-gulp.task('minify-html', function() {
+gulp.task('minify-html', function () {
   var opts = {
     conditionals: <%= !conditionals %>,
     spare: <%= !spare %>,

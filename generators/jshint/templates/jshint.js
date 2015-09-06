@@ -7,3 +7,8 @@ gulp.task('jshint', function () {
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
+
+gulp.task('jshint:watch', function () {
+  gulp.watch([<% var tab = srcLint.split(','); for(var i = 0; i < tab.length; i++) { %>'<%=tab[i].replace(' ', '')%>'<% if (i !== tab.length - 1) {%>,<% } %>
+    <%}%>], ['jshint']);
+});
