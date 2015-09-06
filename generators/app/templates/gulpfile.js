@@ -4,4 +4,4 @@ var gulp = require('gulp'),
 
 requireDir('./gulp-scripts', {recurse: true});
 
-gulp.task('default', ['webserver', 'watch', 'openbrowser']);
+gulp.task('default', ['server']);

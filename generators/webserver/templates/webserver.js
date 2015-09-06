@@ -19,7 +19,7 @@ if ($.util.env.port)
 if ($.util.env.prod)
   srcHosting = "./dist";
 
-gulp.task('watch', function()
+gulp.task('watchWebServer', function()
 {
   gulp.watch([srcHosting + '/**/*.html', srcHosting + '/**/*.js', srcHosting + '/**/*.css']).on('change', function(event)
   {
@@ -45,4 +45,4 @@ gulp.task('openbrowser', function()
 });
 
 
-gulp.task('server', ['webserver', 'watch', 'openbrowser']);
+gulp.task('server', ['webserver', 'watchWebServer', 'openbrowser']);

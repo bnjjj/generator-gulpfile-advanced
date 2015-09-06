@@ -30,6 +30,7 @@
     "lodash": "^3.10.1",
     "opn": "^3.0.2",
     "require-dir": "^0.3.0",
-    "yeoman-generator": "^0.20.3"
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.0.5"
   }
 }

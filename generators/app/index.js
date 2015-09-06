@@ -1,10 +1,12 @@
 'use strict';
 var generators = require('yeoman-generator');
 var _ = require('lodash');
+var yosay = require('yosay');
 
 var gulpfileGenerator = module.exports = generators.Base.extend({
   initializing: function () {
     this.vars = {};
+    this.log(yosay('Welcome in your favorite gulpfile generator by Bnjjj'));
   },
 
   prompting: function () {
@@ -41,8 +43,8 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
           checked: false
         },
         {
-          value : 'livereload',
-          name: 'gulp-webserver',
+          value : 'webserver',
+          name: 'gulp-webserver with livereload',
           checked: false
         },
         {
@@ -72,7 +74,6 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
         }
       ]
     }, function (answers) {
-      self.log(answers);
       _.assign(self.vars, answers);
       done();
     });
@@ -80,43 +81,27 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
 
   configuring: function () {
     var self = this;
-    var done = self.async();
 
-    self.prompt([{
-      type: 'value',
-      name: 'srcCss',
-      message: 'What is your relative css directory path ?',
-      default: './style/css'
-    },
-    {
-      type: 'value',
-      name: 'srcHosting',
-      message: 'What is your relative directory path for hosting and livereload ?',
-      default: './app'
-    }], function (answer) {
-      _.assign(self.vars, answer);
-      done();
-    });
+    if (self.vars.modules.indexOf('webserver') !== -1) {
+      self.composeWith('gulpfile:webserver');
+    }
+
+    if (self.vars.modules.indexOf('jshint') !== -1) {
+      self.composeWith('gulpfile:jshint');
+    }
   },
 
   writing: function () {
     var self = this;
-
-    self.fs.copyTpl(
-      self.templatePath('../../../templates'),
-      self.destinationPath(),
-      self.vars
-    );
+    self.template(self.templatePath(), self.destinationPath(), self.vars);
   },
 
   install: function () {
     var self = this;
-
     self.installDependencies();
-    self.npmInstall(self.vars.modules, { 'save': true });
   },
 
   end: function () {
-
+    this.log('Have fun !');
   }
 });
