@@ -32,13 +32,13 @@ module.exports = {
       checked: false
     },
     {
-      value : 'minify-html',
-      name: 'gulp-minify-html',
+      value : 'ngAnnotate',
+      name: 'gulp-ng-annotate',
       checked: false
     },
     {
-      value : 'ngAnnotate',
-      name: 'gulp-ng-annotate',
+      value : 'minify-html',
+      name: 'gulp-minify-html',
       checked: false
     },
     {
