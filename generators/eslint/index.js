@@ -14,7 +14,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     self.prompt([{
       type: 'value',
       name: 'srcLint',
-      message: 'What is your relative directories path do you want to lint (jshint)? (ie: ./lib/*.js, ./app/**/*.js)',
+      message: 'What is your relative directories path do you want to lint (eslint)? (ie: ./lib/*.js, ./app/**/*.js)',
       default: './app/**/*.js'
     }], function (answer) {
       _.assign(self.vars, answer);
@@ -32,7 +32,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-jshint'], { 'save': true });
+    self.npmInstall(['gulp-eslint'], { 'save': true });
   },
 
   end: function () {

@@ -26,6 +26,7 @@
   "homepage": "https://github.com/bnjjj/gulpfile-generator#readme",
   "dependencies": {
     "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^0.10.0",
     "lodash": "^3.10.1",
     "opn": "^3.0.2",
