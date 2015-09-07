@@ -22,6 +22,11 @@ module.exports = {
       checked: false
     },
     {
+      value: 'babel',
+      name: 'gulp-babel',
+      checked: false
+    },
+    {
       value : 'webserver',
       name: 'gulp-webserver with livereload',
       checked: false
