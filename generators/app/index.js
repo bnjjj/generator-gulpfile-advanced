@@ -47,6 +47,6 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
   },
 
   end: function () {
-    this.log('Have fun !');
+    this.log(yosay('Have fun !'));
   }
 });
