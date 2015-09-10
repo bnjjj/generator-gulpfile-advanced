@@ -11,6 +11,7 @@ $ npm link
 ```
 
 #Utilisation
++ Go to the root path of your project
 + To launch global generator
 ```
 $ yo gulpfile
