@@ -28,18 +28,18 @@ $ yo gulpfile:taskName
 + De plus vous avez la possibilité de développer votre propre sous générateurs, lorsqu'ils sont tous testés et utilisables n'hésitez pas à me faire une pull request afin que je les intègre en tant que submodule dans le générateur. De cette manière vous rester complètement propriétaire de votre sous générateur et vous êtes libre de le modifier quand vous le souhaitez.
 
 + Voici les pré-requis pour que vos pull-requests soient acceptées : 
-- Avoir une bonne documentation
-- Avoir mis en place des tests automatisés
-- Garder la même structure que mes sous générateurs afin de garder une uniformité
+  - Avoir une bonne documentation
+  - Avoir mis en place des tests automatisés
+  - Garder la même structure que mes sous générateurs afin de garder une uniformité
 
 + La structure des sous générateur doit être de cette forme :
-- Un fichier par task
-- Les fichiers des tasks doivent se situer dans le répertoire templates et doit porter le même nom que la task
-- Un fichier index.js à la racine de votre sous générateur afin de configurer votre sous générateur
+  - Un fichier par task
+  - Les fichiers des tasks doivent se situer dans le répertoire templates et doit porter le même nom que la task
+  - Un fichier index.js à la racine de votre sous générateur afin de configurer votre sous générateur
 
 + Pour développer :
-- Cloner le projet et y intégrer votre générateur dans le dossier "generators"
-- Lorsque votre développement est terminé, l'intégrer en tant que submodules git
+  - Cloner le projet et y intégrer votre générateur dans le dossier "generators"
+  - Lorsque votre développement est terminé, l'intégrer en tant que submodules git
 
 #Roadmap
 
