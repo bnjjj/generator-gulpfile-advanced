@@ -60,7 +60,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-sass'], { 'save': true });
+    self.npmInstall(['gulp-sass'], { 'saveDev': true });
   },
 
   end: function () {

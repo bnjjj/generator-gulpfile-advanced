@@ -45,7 +45,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-minify-html'], { 'save': true });
+    self.npmInstall(['gulp-minify-html'], { 'saveDev': true });
   },
 
   end: function () {

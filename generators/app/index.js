@@ -10,7 +10,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var done = self.async();
     self.vars = {};
     self.log(yosay('Welcome in your favorite gulpfile generator by Bnjjj'));
-    
+
     fs.readdir(self.templatePath('./../..'), function (err, files) {
       if (err) {
         self.log('Error : ' + err);
@@ -53,7 +53,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
 
   install: function () {
     var self = this;
-    self.npmInstall(['gulp-concat'], { 'save': true });
+    self.npmInstall(['gulp-concat'], { 'saveDev': true });
     self.installDependencies();
   },
 

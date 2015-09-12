@@ -1,7 +1,7 @@
 'use strict';
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')({
-  scope: ['dependencies']
+  scope: ['devDependencies']
 });
 
 gulp.task('less', function () {

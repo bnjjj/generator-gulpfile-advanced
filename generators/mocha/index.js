@@ -43,7 +43,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-notify', 'gulp-mocha'], { 'save': true });
+    self.npmInstall(['gulp-notify', 'gulp-mocha'], { 'saveDev': true });
   },
 
   end: function () {

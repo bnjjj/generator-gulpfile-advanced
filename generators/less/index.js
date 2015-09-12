@@ -60,7 +60,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-less'], { 'save': true });
+    self.npmInstall(['gulp-less'], { 'saveDev': true });
   },
 
   end: function () {

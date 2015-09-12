@@ -1,6 +1,6 @@
 'use strict';
 var gulp = require('gulp');
-var $ = require('gulp-load-plugins')({scope: ['dependencies']});
+var $ = require('gulp-load-plugins')({scope: ['devDependencies']});
 
 gulp.task('mocha', function () {
   gulp.src('<%= src %>', {read: false})

@@ -59,7 +59,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-uglify'], { 'save': true });
+    self.npmInstall(['gulp-uglify'], { 'saveDev': true });
   },
 
   end: function () {

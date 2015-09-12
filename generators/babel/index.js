@@ -36,7 +36,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-babel'], { 'save': true });
+    self.npmInstall(['gulp-babel'], { 'saveDev': true });
   },
 
   end: function () {

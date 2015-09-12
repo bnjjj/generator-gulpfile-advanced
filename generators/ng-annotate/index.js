@@ -13,13 +13,13 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
 
     self.prompt([{
       type: 'value',
-      name: 'configFile',
-      message: 'What is your relative path for your config file for your angular constants (ngConstant) ?',
-      default: './config.json'
+      name: 'src',
+      message: 'What is your relative path for your angular application (ngAnnotate) ?',
+      default: './app'
     }, {
       type: 'value',
       name: 'dist',
-      message: 'What is your relative directory path for your angular constants declaration (ngConstant) ?',
+      message: 'What is your relative path for your angular application in production (ngAnnotate) ?',
       default: './dist'
     }], function (answers) {
       _.assign(self.vars, answers);
@@ -36,7 +36,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-ng-constant'], { 'save': true });
+    self.npmInstall(['gulp-ng-annotate'], { 'saveDev': true });
   },
 
   end: function () {

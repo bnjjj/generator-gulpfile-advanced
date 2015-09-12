@@ -32,7 +32,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
 
     self.installDependencies();
-    self.npmInstall(['gulp-eslint'], { 'save': true });
+    self.npmInstall(['gulp-eslint'], { 'saveDev': true });
   },
 
   end: function () {
