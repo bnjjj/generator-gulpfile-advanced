@@ -1,0 +1,3 @@
+[submodule "generators/webserver"]
+	path = generators/webserver
+	url = https://github.com/bnjjj/gulpfile-subgenerator-webserver.git
