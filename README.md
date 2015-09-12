@@ -37,7 +37,9 @@ $ yo gulpfile:taskName
 - Les fichiers des tasks doivent se situer dans le répertoire templates et doit porter le même nom que la task
 - Un fichier index.js à la racine de votre sous générateur afin de configurer votre sous générateur
 
-
++ Pour développer :
+- Cloner le projet et y intégrer votre générateur dans le dossier "generators"
+- Lorsque votre développement est terminé, l'intégrer en tant que submodules git
 
 #Roadmap
 
