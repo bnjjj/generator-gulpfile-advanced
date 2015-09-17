@@ -19,14 +19,14 @@
     "gulpfile"
   ],
   "author": {
-    "name": "Benjamin Coenen (bnjjj)",
+    "name": "Benjamin Coenen",
     "email": "benjamin.coenen@hotmail.com"
   },
   "bugs": {
-    "url": "https://github.com/bnjjj/gulpfile-generator/issues"
+    "url": "https://github.com/bnjjj/generator-gulpfile/issues"
   },
   "license": "ISC",
-  "homepage": "https://github.com/bnjjj/gulpfile-generator#readme",
+  "homepage": "https://github.com/bnjjj/generator-gulpfile",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
