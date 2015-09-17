@@ -1,6 +1,6 @@
 {
   "name": "generator-gulpfile",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A yeoman generator to build gulpfiles easily",
   "main": "./generators/app/index.js",
   "scripts": {
