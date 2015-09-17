@@ -3,19 +3,19 @@
 
 #Prerequisites
 ```
-$ npm install -g yo generator-gulpfile
+$ npm install -g yo generator-gulpfile-advanced
 ```
 
 #Usage
 + Go to the root path of your project
 + To launch global generator
 ```
-$ yo gulpfile
+$ yo gulpfile-advanced
 ```
 + Then select the tasks you want in your application
 + To launch sub-generator in order to add new tasks (after launching the global generator)
 ```
-$ yo gulpfile:taskName
+$ yo gulpfile-advanced:taskName
 ```
 + And now you can launch your task with gulp
 ```
@@ -37,17 +37,17 @@ What do you want as tasks in your custom task ?
 ```
 
 #Sub-generators
-+ [gulpfile:webserver](https://github.com/bnjjj/gulpfile-subgenerator-webserver)
-+ [gulpfile:babel](https://github.com/bnjjj/gulpfile-subgenerator-babel)
-+ [gulpfile:eslint](https://github.com/bnjjj/gulpfile-subgenerator-eslint)
-+ [gulpfile:jshint](https://github.com/bnjjj/gulpfile-subgenerator-jshint)
-+ [gulpfile:less](https://github.com/bnjjj/gulpfile-subgenerator-less)
-+ [gulpfile:sass](https://github.com/bnjjj/gulpfile-subgenerator-sass)
-+ [gulpfile:minify-html](https://github.com/bnjjj/gulpfile-subgenerator-minify-html)
-+ [gulpfile:uglify](https://github.com/bnjjj/gulpfile-subgenerator-uglify)
-+ [gulpfile:ng-annotate](https://github.com/bnjjj/gulpfile-subgenerator-ng-annotate)
-+ [gulpfile:ng-constant](https://github.com/bnjjj/gulpfile-subgenerator-ng-constant)
-+ [gulpfile:mocha](https://github.com/bnjjj/gulpfile-subgenerator-mocha)
++ [gulpfile-advanced:webserver](https://github.com/bnjjj/gulpfile-subgenerator-webserver)
++ [gulpfile-advanced:babel](https://github.com/bnjjj/gulpfile-subgenerator-babel)
++ [gulpfile-advanced:eslint](https://github.com/bnjjj/gulpfile-subgenerator-eslint)
++ [gulpfile-advanced:jshint](https://github.com/bnjjj/gulpfile-subgenerator-jshint)
++ [gulpfile-advanced:less](https://github.com/bnjjj/gulpfile-subgenerator-less)
++ [gulpfile-advanced:sass](https://github.com/bnjjj/gulpfile-subgenerator-sass)
++ [gulpfile-advanced:minify-html](https://github.com/bnjjj/gulpfile-subgenerator-minify-html)
++ [gulpfile-advanced:uglify](https://github.com/bnjjj/gulpfile-subgenerator-uglify)
++ [gulpfile-advanced:ng-annotate](https://github.com/bnjjj/gulpfile-subgenerator-ng-annotate)
++ [gulpfile-advanced:ng-constant](https://github.com/bnjjj/gulpfile-subgenerator-ng-constant)
++ [gulpfile-advanced:mocha](https://github.com/bnjjj/gulpfile-subgenerator-mocha)
 + And so much more if you contribute and create your own sub-generator
 
 #Development installation
