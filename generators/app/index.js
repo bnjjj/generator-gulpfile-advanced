@@ -39,10 +39,8 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
   configuring: function () {
     var self = this;
 
-    _.forEach(config.modules, function (module) {
-      if (self.vars.modules.indexOf(module.value) !== -1) {
-        self.composeWith('gulpfile:' + module.value);
-      }
+    _.forEach(self.vars.modules, function (module) {
+      self.composeWith('gulpfile:' + module);
     });
   },
 
