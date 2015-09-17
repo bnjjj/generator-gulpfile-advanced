@@ -1,3 +1,33 @@
 [submodule "generators/webserver"]
 	path = generators/webserver
 	url = https://github.com/bnjjj/gulpfile-subgenerator-webserver.git
+[submodule "generators/babel"]
+	path = generators/babel
+	url = https://github.com/bnjjj/gulpfile-subgenerator-babel.git
+[submodule "generators/eslint"]
+	path = generators/eslint
+	url = https://github.com/bnjjj/gulpfile-subgenerator-eslint.git
+[submodule "generators/jshint"]
+	path = generators/jshint
+	url = https://github.com/bnjjj/gulpfile-subgenerator-jshint.git
+[submodule "generators/less"]
+	path = generators/less
+	url = https://github.com/bnjjj/gulpfile-subgenerator-less.git
+[submodule "generators/mocha"]
+	path = generators/mocha
+	url = https://github.com/bnjjj/gulpfile-subgenerator-mocha.git
+[submodule "generators/minify-html"]
+	path = generators/minify-html
+	url = https://github.com/bnjjj/gulpfile-subgenerator-minify-html.git
+[submodule "generators/uglify"]
+	path = generators/uglify
+	url = https://github.com/bnjjj/gulpfile-subgenerator-uglify.git
+[submodule "generators/ng-constant"]
+	path = generators/ng-constant
+	url = https://github.com/bnjjj/gulpfile-subgenerator-ng-constant.git
+[submodule "generators/ng-annotate"]
+	path = generators/ng-annotate
+	url = https://github.com/bnjjj/gulpfile-subgenerator-ng-annotate.git
+[submodule "generators/sass"]
+	path = generators/sass
+	url = https://github.com/bnjjj/gulpfile-subgenerator-sass.git
