@@ -4,7 +4,7 @@
   "description": "A yeoman generator to build gulpfiles easily",
   "main": "./generators/app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./generators/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -23,12 +23,9 @@
     "email": "benjamin.coenen@hotmail.com"
   },
   "bugs": {
-    "url": "https://github.com/bnjjj/generator-gulpfile/issues"
-  },
-  "license": "ISC",
-  "bugs": {
     "url": "https://github.com/bnjjj/gulpfile-generator/issues"
   },
+  "license": "ISC",
   "homepage": "https://github.com/bnjjj/gulpfile-generator#readme",
   "dependencies": {
     "gulp": "^3.9.0",
@@ -39,5 +36,8 @@
     "require-dir": "^0.3.0",
     "yeoman-generator": "^0.20.3",
     "yosay": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2"
   }
 }
