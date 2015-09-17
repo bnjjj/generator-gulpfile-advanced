@@ -1,4 +1,4 @@
-#gulpfile-generator[![Build Status](https://travis-ci.org/bnjjj/generator-gulpfile.svg?branch=master)](https://travis-ci.org/bnjjj/generator-gulpfile)
+#gulpfile-generator [![Build Status](https://travis-ci.org/bnjjj/generator-gulpfile.svg?branch=master)](https://travis-ci.org/bnjjj/generator-gulpfile)
 > Here is a [Yeoman](http://yeoman.io/) generator which gives the abilities to create all gulp tasks you need to build, run or develop your application. 
 
 #Prerequisites
