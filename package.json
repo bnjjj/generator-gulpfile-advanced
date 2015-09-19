@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnjjj/generator-gulpfile.git"
+    "url": "git+https://github.com/bnjjj/generator-gulpfile-advanced.git"
   },
   "keywords": [
     "yeoman",
@@ -23,10 +23,10 @@
     "email": "benjamin.coenen@hotmail.com"
   },
   "bugs": {
-    "url": "https://github.com/bnjjj/generator-gulpfile/issues"
+    "url": "https://github.com/bnjjj/generator-gulpfile-advanced/issues"
   },
   "license": "ISC",
-  "homepage": "https://github.com/bnjjj/generator-gulpfile",
+  "homepage": "https://github.com/bnjjj/generator-gulpfile-advanced",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
