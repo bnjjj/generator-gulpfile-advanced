@@ -83,6 +83,9 @@ $ npm link
   - Clone the project and integrate your own generator in the "generators" directory
   - When you're done with development, integrate as a Git sub-module
 
+#Contributers
+
+Big thanks to [WaxAndWane](https://github.com/waxandwane) for the translation
 
 -------------
 
