@@ -1,5 +1,8 @@
-#gulpfile-generator-advanced [![Build Status](https://travis-ci.org/bnjjj/generator-gulpfile.svg?branch=master)](https://travis-ci.org/bnjjj/generator-gulpfile)
+#gulpfile-generator-advanced [![Build Status](https://travis-ci.org/bnjjj/generator-gulpfile-advanced?branch=master)](https://travis-ci.org/bnjjj/generator-gulpfile-advanced)
+
 > A generator powered by [Yeoman](http://yeoman.io/) which gives a user the abilitiy to create all [Gulp](http://gulpjs.com) tasks they need to build, run or develop one's application. 
+
+[![NPM](https://nodei.co/npm/generator-gulpfile-advanced.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/generator-gulpfile-advanced/)
 
 #Prerequisites
 ```
