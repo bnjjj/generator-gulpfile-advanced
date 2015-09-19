@@ -9,7 +9,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     var self = this;
     var done = self.async();
     self.vars = {};
-    self.log(yosay('Welcome in your favorite gulpfile generator by Bnjjj'));
+    self.log(yosay('Welcome to your favorite gulpfile generator by Bnjjj'));
 
     fs.readdir(self.templatePath('./../..'), function (err, files) {
       if (err) {
@@ -28,7 +28,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     self.prompt({
       type: 'checkbox',
       name: 'modules',
-      message: 'Which modules would you like to use ?',
+      message: 'Which modules would you like to use?',
       choices: self.modules
     }, function (answers) {
       _.assign(self.vars, answers);

@@ -1,5 +1,5 @@
 #gulpfile-generator-advanced [![Build Status](https://travis-ci.org/bnjjj/generator-gulpfile.svg?branch=master)](https://travis-ci.org/bnjjj/generator-gulpfile)
-> Here is a [Yeoman](http://yeoman.io/) generator which gives the abilities to create all gulp tasks you need to build, run or develop your application. 
+> A generator powered by [Yeoman](http://yeoman.io/) which gives a user the abilitiy to create all [Gulp](http://gulpjs.com) tasks they need to build, run or develop one's application. 
 
 #Prerequisites
 ```
@@ -8,31 +8,31 @@ $ npm install -g yo generator-gulpfile-advanced
 
 #Usage
 + Go to the root path of your project
-+ To launch global generator
++ To launch global generator:
 ```
 $ yo gulpfile-advanced
 ```
 + Then select the tasks you want in your application
-+ To launch sub-generator in order to add new tasks (after launching the global generator)
++ To launch sub-generator in order to add new tasks (after launching the global generator):
 ```
 $ yo gulpfile-advanced:taskName
 ```
-+ And now you can launch your task with gulp
++ And now you can launch your task with gulp:
 ```
 $ gulp taskName
 ```
-+ Or launch in watch mode
++ Or launch in watch mode:
 ```
 $ gulp taskName:watch
 ```
 
-+ With the sub-generator custom you have the ability to make a custom task with existant tasks in your gulpfiles
-+ For example if I want to create a task named "dev" which can transpile less, create a webserver and minify html
++ With the "custom" sub-generator you have the ability to make a custom task with existant tasks in your gulpfiles
++ For example if I want to create a task named "dev" which can transpile less, create a webserver and minify html:
 ```
 $ yo gulpfile:custom
-What is the name of your custom task do you want to create ?
+What would you call your custom task?
 > dev
-What do you want as tasks in your custom task ?
+Which tasks do you want in your custom task ?
 > less:watch, webserver:watch, minify-html:watch
 ```
 
@@ -61,31 +61,25 @@ $ npm link
 
 #Contributing
 
-+ Le but de ce générateur n'est pas de se cantoner aux sous générateurs que j'ai développé. Chaque sous générateur est isolé dans un repository git séparé (submodules), ce qui permet à tout le monde d'effectuer des pull requests ou des issues plus précises.
++ The long goal of this generator is for it to be used with other sub-generators - ones I haven't developed too. Each sub-generator is isolated in its own git repository so that everyone can request pulls or file more precise issues.
 
-+ De plus vous avez la possibilité de développer votre propre sous générateurs, lorsqu'ils sont tous testés et utilisables n'hésitez pas à me faire une pull request afin que je les intègre en tant que submodule dans le générateur. De cette manière vous rester complètement propriétaire de votre sous générateur et vous êtes libre de le modifier quand vous le souhaitez.
++ Furthermore you can develop your own sub-generator; after you have tested don't hesitate to request a pull so that I can integrate it as a sub-module in the main generator. This way you will still be the sole owner of your work and are free to edit it as you please.
 
-+ Voici les pré-requis pour que vos pull-requests soient acceptées : 
-  - Avoir une bonne documentation
-  - Avoir mis en place des tests automatisés
-  - Garder la même structure que mes sous générateurs afin de garder une uniformité
++ Here are the pre-requisites for your pull requests to be accepted:
+  - Have your files well documented
+  - Have automated tests
+  - Keep the same structure so as to keep everything unified
 
-+ La structure des sous générateur doit être de cette forme :
-  - Un fichier par task
-  - Les fichiers des tasks doivent se situer dans le répertoire templates et doit porter le même nom que la task
-  - Un fichier index.js à la racine de votre sous générateur afin de configurer votre sous générateur
++ The structure of the sub-generators has to be as follows:
+  - One file per task
+  - Task files have to be located in the "templates" directory et bear the same name as the task
+  - An "index.js" file at the root of your sub-generator will allow for configuration
 
-+ Pour développer :
-  - Cloner le projet et y intégrer votre générateur dans le dossier "generators"
-  - Lorsque votre développement est terminé, l'intégrer en tant que submodules git
 
-#Roadmap
++ If you're interested in developing:
+  - Clone the project and integrate your own generator in the "generators" directory
+  - When you're done with development, integrate as a Git sub-module
 
-+ Typescript, jade, react, browserify, html-replace, jsx, karma
-+ Créer un générateur personnalisé permettant de créer ses propres tasks à partir des autres, (créer des workflows perso)
-+ Créer un guide de contribution pour créer des sous générateurs
-+ Continuer de réfléchir à un système facilitant l'intégration de ces sous générateurs
-+ Sortir tous les sous générateurs et en faire des sub modules
 
 -------------
 

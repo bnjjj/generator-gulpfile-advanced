@@ -14,12 +14,12 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
     self.prompt([{
       type: 'value',
       name: 'customName',
-      message: 'What is the name of your custom task do you want to create ?',
+      message: 'What would you call your custom task?',
       default: 'myCustomTask'
     }, {
       type: 'value',
       name: 'tasks',
-      message: 'What do you want as tasks in your custom task ?',
+      message: 'Which tasks do you want in your custom task?',
       default: 'webserver, sass, minify-html'
     }], function (answers) {
       _.assign(self.vars, answers);
