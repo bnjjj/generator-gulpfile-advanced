@@ -15,8 +15,11 @@
     "generator",
     "gulpjs",
     "gulp",
+    "grunt",
+    "build",
     "js",
-    "gulpfile"
+    "gulpfile",
+    "yeoman-generator"
   ],
   "author": {
     "name": "Benjamin Coenen",
