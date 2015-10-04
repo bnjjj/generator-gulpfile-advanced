@@ -51,7 +51,7 @@ var gulpfileGenerator = module.exports = generators.Base.extend({
 
   install: function () {
     var self = this;
-    self.npmInstall(['gulp-concat'], { 'saveDev': true });
+    self.npmInstall(['gulp-concat', 'gulp-load-plugins', 'lodash', 'require-dir'], { 'saveDev': true });
     self.installDependencies();
   },
 
