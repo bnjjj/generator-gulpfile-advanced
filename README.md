@@ -9,6 +9,8 @@
 $ npm install -g yo generator-gulpfile-advanced
 ```
 
+![gulpfile-generator](http://img15.hostingpics.net/pics/371008gulpfilegeneratorbnjjj.png "gulpfile-advanced generator")
+
 # Usage
 + Go to the root path of your project
 + To launch global generator:
