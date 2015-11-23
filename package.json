@@ -4,6 +4,7 @@
   "description": "A yeoman generator to build gulpfiles easily",
   "main": "./generators/app/index.js",
   "scripts": {
+    "preinstall": "npm install -g yo gulp"
     "test": "mocha ./generators/**/*.spec.js"
   },
   "repository": {

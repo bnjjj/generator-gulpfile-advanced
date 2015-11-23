@@ -1,15 +1,15 @@
-#gulpfile-generator-advanced [![Build Status](https://travis-ci.org/bnjjj/generator-gulpfile-advanced?branch=master)](https://travis-ci.org/bnjjj/generator-gulpfile-advanced)
+# generator-gulpfile-advanced [![Build Status](https://travis-ci.org/bnjjj/generator-gulpfile-advanced?branch=master)](https://travis-ci.org/bnjjj/generator-gulpfile-advanced)
 
 > A generator powered by [Yeoman](http://yeoman.io/) which gives a user the abilitiy to create all [Gulp](http://gulpjs.com) tasks they need to build, run or develop one's application. 
 
 [![NPM](https://nodei.co/npm/generator-gulpfile-advanced.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/generator-gulpfile-advanced/)
 
-#Prerequisites
+# Prerequisites
 ```
 $ npm install -g yo generator-gulpfile-advanced
 ```
 
-#Usage
+# Usage
 + Go to the root path of your project
 + To launch global generator:
 ```
@@ -39,7 +39,7 @@ Which tasks do you want in your custom task ?
 > less:watch, webserver:watch, minify-html:watch
 ```
 
-#Sub-generators
+# Sub-generators
 + [gulpfile-advanced:webserver](https://github.com/bnjjj/gulpfile-subgenerator-webserver)
 + [gulpfile-advanced:babel](https://github.com/bnjjj/gulpfile-subgenerator-babel)
 + [gulpfile-advanced:eslint](https://github.com/bnjjj/gulpfile-subgenerator-eslint)
@@ -53,7 +53,7 @@ Which tasks do you want in your custom task ?
 + [gulpfile-advanced:mocha](https://github.com/bnjjj/gulpfile-subgenerator-mocha)
 + And so much more if you contribute and create your own sub-generator
 
-#Development installation
+# Development installation
 ```
 $ git clone https://github.com/bnjjj/gulpfile-generator.git
 $ git submodule init
@@ -62,7 +62,7 @@ $ cd generator-gulpfile
 $ npm link
 ```
 
-#Contributing
+# Contributing
 
 + The long goal of this generator is for it to be used with other sub-generators - ones I haven't developed too. Each sub-generator is isolated in its own git repository so that everyone can request pulls or file more precise issues.
 
@@ -83,7 +83,7 @@ $ npm link
   - Clone the project and integrate your own generator in the "generators" directory
   - When you're done with development, integrate as a Git sub-module
 
-#Contributers
+# Contributers
 
 Big thanks to [WaxAndWane](https://github.com/waxandwane) for the translation
 
