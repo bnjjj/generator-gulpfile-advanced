@@ -58,7 +58,7 @@ Which tasks do you want in your custom task ?
 # Development installation
 ```
 $ git clone https://github.com/bnjjj/generator-gulpfile-advanced.git
-$ cd generator-gulpfile
+$ cd generator-gulpfile-advanced
 $ git submodule init
 $ git submodule update
 $ npm link
